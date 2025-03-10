@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 
     <title>Portfolio</title>
 </head>
 <body>
     <!-- Header part of the page -->
-    <header>
+    <header id="header">
         <a href="#home" class="name">Eddie.</a>
         
         <i class='bx bx-menu'></i>
@@ -25,18 +26,22 @@
 
     <!-- Main Part of the page -->
     <section class="home" id="home">
-        <div class="home-content">
-             <h1>Hi, It's <span>Eddie</span></h1>
-             <h3>I'm a <span></span></h3>
-             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing 
-                elit. Cumque recusandae voluptates, molestiae vel 
-                architecto veniam quam tenetur eum ex quasi? 
-                Architecto illum rerum delectus in doloremque 
-                corporis distinctio ab officiis?
-            </p>
+        <div class="home-img">
+            <img src="img/DSC05801 (1).JPG" alt="My poto">
+        </div>
 
-            <div class="social-icon">
+        <div class="home-content">
+
+             <h1>Hi, It's <span>Eddie</span></h1>
+             <h3 class="text-animation">I'm <span></span>
+            </h3>
+
+            <div class="btn-group">
+                <a href="" class="btn">Contact Me</a>
+                <a href="#about" class="btn">Explore</a>
+            </div>
+
+            <div class="social-icons">
                 <a href="#"><i class='bx bxl-linkedin-square'>
                 </i></a>
                 <a href="#"><i class='bx bxl-github' >
@@ -47,17 +52,23 @@
                 </i></a>
             </div>
 
-            <div class="btn-group">
-                <a href="" class="btn">Contact</a>
-            </div>
-
-            <div class="img">
-                <img src="img/DSC05801 (1).JPG" alt="My poto" width="500" 
-                height="500">
-            </div>
         </div>
-
         
+        
+    </section>
+    <section id="about" class="about">
+        <h3>Get to know</h3>
+        <h2>About Me</h2>
+        
+        <div class="edu">
+
+        </div>
+        <div class="myself">
+
+        </div>
+        <div class="fut">
+
+        </div>
     </section>
 
     <!-- Lower part of the page -->
